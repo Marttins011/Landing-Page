@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Calibri;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #040924 16.62%, #001a6e 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 17px;
+    border-bottom: 0.5px solid white;
+}
+
+.cabecalho img {
+    width: 85px;
+}
+
+.cabecalho nav {
+    display: flex;
+    gap: 15px;
+    font-family: Calibri;
+    color: white;
+}
+
+.cabecalho nav a {
+    color: white;
+}
+
+.cabecalho nav a:hover {
+    border-bottom: 0.50px solid white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+}
+
+.conteudo-escrito h1 {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-escrito h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-escrito button {
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 60px;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.596);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conteudo-escrito button:hover {
+    background-color: rgb(109, 109, 109);
+}
+
+.conteudo-escrito a {
+    color: black;
+}
