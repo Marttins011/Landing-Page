@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     gap: 32px;
     color: white;
+    flex-wrap: wrap;
 }
 
 .conteudo-escrito h1 {
