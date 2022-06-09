@@ -83,21 +83,3 @@ body {
 .conteudo-escrito a {
     color: black;
 }
-
-@media screen and (max-width:600px){
-    .conteudo .conteudo .conteudo-escrito {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .conteudo-escrito {
-        text-align: center;
-    }
-
-    .conteudo .conteudo .conteudo-escrito .conteudo-escrito buttom {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
